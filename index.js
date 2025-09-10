@@ -38,7 +38,7 @@ class FluidDB {
           if (key === "filter") return async (filterObject) => {
             await self.ready;
 
-            const conditions = Object.keys(filterObject).map(k => `${k} = $${k}`).join(" AND ");
+            const conditions = Object.keys(filterObject).map((k) => `${k} = $${k}`).join(" AND ");
 
             const result = await self.db.query(
               `SELECT * FROM ${tableName} WHERE ${conditions}`,
