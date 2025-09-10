@@ -1,7 +1,7 @@
 {
   "name": "fluid.db",
   "productName": "FluidDB",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "The DX-focused ORM for SurrealDB",
   "main": "index.js",
   "scripts": {

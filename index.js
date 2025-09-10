@@ -21,7 +21,7 @@ class FluidDB {
   _tableProxy(tableName) {
     const self = this;
 
-    const getId = (key) => key.includes(':') ? key : `${tableName}:${key}`;
+    const getId = (key) => key.includes(":") ? key : `${tableName}:${key}`;
 
     return new Proxy(
       {},
