@@ -1,0 +1,29 @@
+{
+  "name": "fluid.db",
+  "productName": "FluidDB",
+  "version": "1.0.3",
+  "description": "The DX-focused ORM for SurrealDB",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "fluiddb",
+    "fluid.db",
+    "surrealdb",
+    "database",
+    "nosql",
+    "javascript-orm",
+    "proxy-db",
+    "object-store",
+    "schemaless",
+    "lightweight-db",
+    "zero-boilerplate"
+  ],
+  "author": "DinoscapeProgramming",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "surrealdb.js": "^1.0.0"
+  }
+}
