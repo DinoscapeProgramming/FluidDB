@@ -1,4 +1,4 @@
-const Surreal = require("surrealdb.js").default;
+const Surreal = require("surrealdb").default;
 
 class FluidDB {
   constructor({ url = "http://127.0.0.1:8000/rpc", namespace = "test", database = "test" }) {
