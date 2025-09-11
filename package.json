@@ -1,12 +1,17 @@
 {
   "name": "fluid.db",
   "productName": "FluidDB",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "The DX-focused ORM for SurrealDB",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DinoscapeProgramming/FluidDB.git"
+  },
+  "homepage": "https://github.com/DinoscapeProgramming/FluidDB#readme",
   "keywords": [
     "fluiddb",
     "fluid.db",
